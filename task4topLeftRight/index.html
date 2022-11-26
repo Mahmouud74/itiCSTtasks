@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .imgContainer{
+            border: 3px solid red;
+            width: 500px;
+            height: 500px;
+            text-align: center;
+            position: relative;
+        }
+        #img1{
+            position: absolute;
+            left: 0px;
+            top: 50%;
+        }
+        #img2{
+            position: absolute;
+            right: 0px;
+            top: 50%;
+        }
+        #top{
+            position: absolute;
+            right: 50%;
+            bottom: 0px;
+        }
+    </style>
+</head>
+<body >
+    
+    <div class="imgContainer">
+        <img src="./images/icon1.gif" id="img1" alt="" srcset="">
+        <img src="./images/TOP.JPG" alt="" id="top"srcset="">
+        <img src="./images/icon2.gif" alt="" id="img2" srcset="">
+    </div>
+    <br> <br>
+    <div>
+        <input type="button" value="move" id="movement">
+        &nbsp;
+        <input type="button" value="reset" id="reset">
+    </div>    
+
+
+    <script src="./public/index.js"></script>
+
+</body>
+</html>
